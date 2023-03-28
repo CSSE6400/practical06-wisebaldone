@@ -25,6 +25,7 @@ else
         echo "${ecs_test_log}"
         echo "Neither EC2 or ECS tests pass"
         echo "Both have been logged but only one needs to be implemented"
+        exit 1
     fi
 fi
 
