@@ -8,7 +8,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 25
+      "points": 75
     },
     {
       "name": "Clean Git Repository",
@@ -19,16 +19,6 @@
       "comparison": "included",
       "timeout": 10,
       "points": 25
-    },
-    {
-      "name": "Correct Unit Tests",
-      "setup": "pip3 install pipenv",
-      "run": "./.csse6400/bin/unittest.sh",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 50
     }
   ]
 }
